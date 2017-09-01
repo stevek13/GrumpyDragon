@@ -16,6 +16,7 @@
 		AA81FE781F5853DA0028899B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA81FE771F5853DA0028899B /* Assets.xcassets */; };
 		AA81FE7B1F5853DA0028899B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA81FE791F5853DA0028899B /* LaunchScreen.storyboard */; };
 		AA81FE861F5853DA0028899B /* GrumpyDragonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA81FE851F5853DA0028899B /* GrumpyDragonTests.swift */; };
+		AA81FE911F5857760028899B /* GrumpyDragon.atlas in Resources */ = {isa = PBXBuildFile; fileRef = AA81FE901F58574E0028899B /* GrumpyDragon.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		AA81FE811F5853DA0028899B /* GrumpyDragonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrumpyDragonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA81FE851F5853DA0028899B /* GrumpyDragonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrumpyDragonTests.swift; sourceTree = "<group>"; };
 		AA81FE871F5853DA0028899B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA81FE901F58574E0028899B /* GrumpyDragon.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = GrumpyDragon.atlas; path = "../../../../../Downloads/Grumpy-Dragon-Part-1 (4)/GrumpyDragon.atlas"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		AA81FE691F5853DA0028899B /* GrumpyDragon */ = {
 			isa = PBXGroup;
 			children = (
+				AA81FE901F58574E0028899B /* GrumpyDragon.atlas */,
 				AA81FE6A1F5853DA0028899B /* AppDelegate.swift */,
 				AA81FE6C1F5853DA0028899B /* GameScene.sks */,
 				AA81FE6E1F5853DA0028899B /* Actions.sks */,
@@ -192,6 +195,7 @@
 				AA81FE6D1F5853DA0028899B /* GameScene.sks in Resources */,
 				AA81FE781F5853DA0028899B /* Assets.xcassets in Resources */,
 				AA81FE7B1F5853DA0028899B /* LaunchScreen.storyboard in Resources */,
+				AA81FE911F5857760028899B /* GrumpyDragon.atlas in Resources */,
 				AA81FE6F1F5853DA0028899B /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
